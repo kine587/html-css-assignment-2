@@ -1,0 +1,53 @@
+/*section, article, h2, img, p, button, div, */
+
+* {
+  background-color: rgb(207, 199, 199);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  margin-top: 100px;
+  height: 300px;
+  width: 900px;
+  gap: 0px;
+  display: flex;
+  flex-direction: row;
+}
+article {
+  align-items: center;
+  margin-bottom: 20px;
+  display: flexbox;
+  flex-flow: column wrap;
+  flex-direction: row;
+}
+h2 {
+  margin-bottom: 25px;
+  font-family: "Big Shoulders", sans-serif;
+  font-weight: 700;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+p {
+  margin-bottom: 50px;
+  font-family: "lexend Deca";
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+button {
+  margin-top: 5px;
+  color: hsl(31, 77%, 52%);
+  background-color: hsl(0, 0%, 95%);
+}
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+}
+.suvs {
+  background-color: hsl(184, 98%, 23%);
+}
+.Luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+img {
+  background-color: aliceblue;
+}
