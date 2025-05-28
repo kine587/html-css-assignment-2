@@ -9,7 +9,7 @@
 
 section {
   margin-top: 100px;
-  height: 300px;
+  height: 350px;
   width: 900px;
   gap: 0px;
   display: flex;
@@ -24,20 +24,21 @@ article {
 }
 h2 {
   margin-bottom: 25px;
+  padding-left: 20px;
   font-family: "Big Shoulders", sans-serif;
   font-weight: 700;
   color: hsla(0, 0%, 100%, 0.75);
 }
 p {
   margin-bottom: 50px;
+  padding-left: 20px;
   font-family: "lexend Deca";
   font-weight: 400;
   color: hsla(0, 0%, 100%, 0.75);
 }
 button {
-  margin-top: 5px;
+  padding-left: 10px;
   color: hsl(31, 77%, 52%);
-  background-color: hsl(0, 0%, 95%);
 }
 .sedan {
   background-color: hsl(31, 77%, 52%);
@@ -49,5 +50,10 @@ button {
   background-color: hsl(179, 100%, 13%);
 }
 img {
-  background-color: aliceblue;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+div {
+  margin-bottom: 20px;
 }
