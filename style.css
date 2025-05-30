@@ -9,6 +9,7 @@
 
 section {
   margin-top: 100px;
+  padding-left: 200px;
   height: 350px;
   width: 900px;
   gap: 0px;
@@ -39,6 +40,8 @@ p {
 button {
   padding-left: 10px;
   color: hsl(31, 77%, 52%);
+  background-color: white;
+  font-family: lexend Deca;
 }
 .sedan {
   background-color: hsl(31, 77%, 52%);
