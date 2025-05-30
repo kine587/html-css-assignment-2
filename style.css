@@ -14,7 +14,6 @@ section {
   width: 900px;
   gap: 0px;
   display: flex;
-  flex-direction: row;
 }
 article {
   align-items: center;
@@ -22,6 +21,7 @@ article {
   display: flexbox;
   flex-flow: column wrap;
   flex-direction: row;
+  background-color: burlywood;
 }
 h2 {
   margin-bottom: 25px;
@@ -39,10 +39,10 @@ p {
 }
 button {
   padding: 5px;
+  margin-left: 20px;
   border: none;
-  border-radius: 20px;
-  color: hsl(31, 77%, 52%);
-  background-color: white;
+  border-radius: 12px;
+  background-color: hsl(0, 0%, 95%);
   font-family: lexend Deca;
 }
 .sedan {
