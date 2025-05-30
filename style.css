@@ -38,7 +38,9 @@ p {
   color: hsla(0, 0%, 100%, 0.75);
 }
 button {
-  padding-left: 10px;
+  padding: 5px;
+  border: none;
+  border-radius: 20px;
   color: hsl(31, 77%, 52%);
   background-color: white;
   font-family: lexend Deca;
