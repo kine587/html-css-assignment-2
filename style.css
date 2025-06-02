@@ -21,7 +21,6 @@ article {
   display: flexbox;
   flex-flow: column wrap;
   flex-direction: row;
-  background-color: burlywood;
 }
 h2 {
   margin-bottom: 25px;
@@ -29,6 +28,7 @@ h2 {
   font-family: "Big Shoulders", sans-serif;
   font-weight: 700;
   color: hsla(0, 0%, 100%, 0.75);
+  border-radius: none;
 }
 p {
   margin-bottom: 50px;
@@ -36,23 +36,26 @@ p {
   font-family: "lexend Deca";
   font-weight: 400;
   color: hsla(0, 0%, 100%, 0.75);
+  border-radius: none;
 }
 button {
-  padding: 5px;
+  padding: 6px;
   margin-left: 20px;
   border: none;
-  border-radius: 12px;
+  border-radius: 20px;
   background-color: hsl(0, 0%, 95%);
   font-family: lexend Deca;
 }
 .sedan {
   background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0px 0px 10px;
 }
 .suvs {
   background-color: hsl(184, 98%, 23%);
 }
 .Luxury {
   background-color: hsl(179, 100%, 13%);
+  border-radius: 0px 10px 10px 0px;
 }
 img {
   margin-bottom: 20px;
@@ -70,4 +73,13 @@ div {
 }
 .green {
   color: hsl(179, 100%, 13%);
+}
+.car-one {
+  background-color: hsl(31, 77%, 52%);
+}
+.car-two {
+  background-color: hsl(184, 98%, 23%);
+}
+.car-three {
+  background-color: hsl(179, 100%, 13%);
 }
